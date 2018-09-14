@@ -1,0 +1,150 @@
+
+/* #GLOBAL styles Section of chatter|app */
+* {   
+/* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+button, .w3w {
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+
+
+
+/* #APP BAR of chatter|app */
+  
+h1 #app-logo {
+    /* #2 #colourful #app-bar and its font properties */
+    background-color: #3F51B5;
+    color: white;
+    height: 56px; 
+    width: 56px;
+}
+
+
+/* #CHANNELS LIST of chatter|app */
+  
+ul {
+    /* #channel list*/
+    background-color: white;
+    list-style-type: none;
+}
+
+.seven-continents {
+    /* The active channel with blue highlight*/
+    border-left: 4px solid blue;   
+}
+
+#channels {
+    box-sizing: content-box; 
+}
+
+.yummy, .seven-continents, .killer-app, .first-on-mars, .october-fest  {
+    /* The all channels with padding and thin light grey lines */
+    padding: 16px 16px 16px 16px;
+    font-size: 16px;  
+    border-bottom:1px solid rgb(236, 234, 234);
+
+}
+
+
+/* #TAB BAR of chatter|app */
+
+#tab-bar { 
+/* #Tab bar container properties */
+background-color: white;
+
+}
+
+#tab-bar button {
+/* Tab bar button background colour with no border and font size specified */
+   background-color: white;
+   font-size: 13px; 
+       
+}
+
+.new-button, .trend-button, .favorite-button {
+    /* Tab bar buttons with one-third width of total space and its content with 16px margin*/
+        width: 33%;
+        height: 72px;
+        text-align: center;
+        padding: 16px 16px 16px 16px;
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+}
+    
+.icon {
+    /* Tab bar button icons centralized with line break*/
+        margin: auto;
+        display: block;
+        margin-bottom: 4px;
+}
+
+.new-button {
+    /* Tab bar New button highlighted is active with blue border color at bottom*/
+        border-bottom: 4px solid blue;
+}
+
+
+
+/* #MESSAGES SECTION of chatter|app */
+
+.message {
+    /* #Message container properties*/
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}   
+
+.message h3 {
+    /* #Message metadata properties*/
+    font-size: medium;
+}
+
+.message a {
+    /* #Message metadata properties*/
+    color: black;
+}
+
+.message div, p {
+    /* #Message text properties*/  
+    background-color: white;
+    padding: 16px 16px;  
+}
+
+button {
+    /* #Message button properties*/
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase; 
+    margin-left: 2.5%; 
+}
+
+.message em {
+    /* #Message emphasized properties*/
+    font-size: larger;
+    font-style: normal;
+}
+
+#own-metadata, #own-text, .own-button {
+    /* #Message container properties for the owner of post*/
+    margin-bottom: 8px;
+    margin-left: 17.5%;
+} 
+
+
